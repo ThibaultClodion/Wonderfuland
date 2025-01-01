@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0191f4d7d373bcc4da8107743c07e55c, type: 3}
+  m_Name: Wonderful
+  m_EditorClassIdentifier: 
+  appearanceGO: {fileID: 6969922692588782867, guid: 5677e9e208cf1e7418897b496dce3dfc, type: 3}
+  characterFile: {fileID: 4900000, guid: c45a0e70f8a55d94d90903cd255a166e, type: 3}
+  filePath: Wonderful.json

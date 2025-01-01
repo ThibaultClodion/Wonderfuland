@@ -1,0 +1,306 @@
+{
+  "$type": "Character, Assembly-CSharp",
+  "iconPath": "Ressources/Spell Icons/Shaman17.png",
+  "statsInit": {
+    "$type": "SpellCreator.Stats, Assembly-CSharp",
+    "PA": 8,
+    "Life": 80
+  },
+  "passif": {
+    "$type": "SpellCreator.Passif, Assembly-CSharp",
+    "effects": {
+      "$type": "System.Collections.Generic.List`1[[SpellCreator.Effect, Assembly-CSharp]], mscorlib",
+      "$values": [
+      ]
+    },
+    "iconPath": null,
+    "basicScope": false,
+    "scopeMin": 0,
+    "scopeMax": 0,
+    "scopeZone": {
+      "$type": "System.Collections.Generic.List`1[[UnityEngine.Vector2Int, UnityEngine.CoreModule]], mscorlib",
+      "$values": [
+      ]
+    },
+    "throughObstacles": false,
+    "targets": null,
+    "targetOccupation": null,
+    "costValue": 0,
+    "costStat": 0,
+    "cooldown": 0,
+    "launchPerTurn": 0
+  },
+  "spellDeck": {
+    "$type": "SpellCreator.SpellDeck, Assembly-CSharp",
+    "deck": {
+      "$type": "System.Collections.Generic.List`1[[SpellCreator.Spell, Assembly-CSharp]], mscorlib",
+      "$values": [
+        {
+          "$type": "SpellCreator.Spell, Assembly-CSharp",
+          "effects": {
+            "$type": "System.Collections.Generic.List`1[[SpellCreator.Effect, Assembly-CSharp]], mscorlib",
+            "$values": [
+              {
+                "$type": "SpellCreator.Damage, Assembly-CSharp",
+                "damage": 20,
+                "lifesteal": false,
+                "lifestealPercent": 0,
+                "effectZone": {
+                  "$type": "System.Collections.Generic.List`1[[UnityEngine.Vector2Int, UnityEngine.CoreModule]], mscorlib",
+                  "$values": [
+                  ]
+                },
+                "duration": 0,
+                "cellEffect": false,
+                "persistentCellEffect": false,
+                "conditionCode": null,
+                "procTime": 0
+              }
+            ]
+          },
+          "iconPath": "Ressources/Spell Icons/Arcanist15.png",
+          "basicScope": true,
+          "scopeMin": 2,
+          "scopeMax": 5,
+          "scopeZone": {
+            "$type": "System.Collections.Generic.List`1[[UnityEngine.Vector2Int, UnityEngine.CoreModule]], mscorlib",
+            "$values": [
+            ]
+          },
+          "throughObstacles": true,
+          "targets": null,
+          "targetOccupation": null,
+          "costValue": 3,
+          "costStat": 0,
+          "cooldown": 0,
+          "launchPerTurn": 2
+        },
+        {
+          "$type": "SpellCreator.Spell, Assembly-CSharp",
+          "effects": {
+            "$type": "System.Collections.Generic.List`1[[SpellCreator.Effect, Assembly-CSharp]], mscorlib",
+            "$values": [
+              {
+                "$type": "SpellCreator.Invocation, Assembly-CSharp",
+                "lifeLinkPercent": 0,
+                "effectZone": {
+                  "$type": "System.Collections.Generic.List`1[[UnityEngine.Vector2Int, UnityEngine.CoreModule]], mscorlib",
+                  "$values": [
+                  ]
+                },
+                "duration": 2,
+                "cellEffect": false,
+                "persistentCellEffect": false,
+                "conditionCode": null,
+                "procTime": 0
+              }
+            ]
+          },
+          "iconPath": "Ressources/Spell Icons/Arcanist1.png",
+          "basicScope": false,
+          "scopeMin": 1,
+          "scopeMax": 2,
+          "scopeZone": {
+            "$type": "System.Collections.Generic.List`1[[UnityEngine.Vector2Int, UnityEngine.CoreModule]], mscorlib",
+            "$values": [
+            ]
+          },
+          "throughObstacles": false,
+          "targets": null,
+          "targetOccupation": null,
+          "costValue": 4,
+          "costStat": 0,
+          "cooldown": 1,
+          "launchPerTurn": 1
+        },
+        {
+          "$type": "SpellCreator.Spell, Assembly-CSharp",
+          "effects": {
+            "$type": "System.Collections.Generic.List`1[[SpellCreator.Effect, Assembly-CSharp]], mscorlib",
+            "$values": [
+              {
+                "$type": "SpellCreator.Movement, Assembly-CSharp",
+                "teleportToPosition": true,
+                "centerPosition": {
+                  "$type": "UnityEngine.Vector2Int, UnityEngine.CoreModule",
+                  "x": 0,
+                  "y": 0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0
+                },
+                "projectionToApply": {
+                  "$type": "UnityEngine.Vector2Int, UnityEngine.CoreModule",
+                  "x": 0,
+                  "y": 0,
+                  "magnitude": 0.0,
+                  "sqrMagnitude": 0
+                },
+                "effectZone": {
+                  "$type": "System.Collections.Generic.List`1[[UnityEngine.Vector2Int, UnityEngine.CoreModule]], mscorlib",
+                  "$values": [
+                  ]
+                },
+                "duration": 0,
+                "cellEffect": false,
+                "persistentCellEffect": false,
+                "conditionCode": null,
+                "procTime": 0
+              }
+            ]
+          },
+          "iconPath": "Ressources/Spell Icons/BeastMaster19.png",
+          "basicScope": false,
+          "scopeMin": 2,
+          "scopeMax": 3,
+          "scopeZone": {
+            "$type": "System.Collections.Generic.List`1[[UnityEngine.Vector2Int, UnityEngine.CoreModule]], mscorlib",
+            "$values": [
+            ]
+          },
+          "throughObstacles": false,
+          "targets": null,
+          "targetOccupation": null,
+          "costValue": 2,
+          "costStat": 0,
+          "cooldown": 0,
+          "launchPerTurn": 2
+        },
+        {
+          "$type": "SpellCreator.Spell, Assembly-CSharp",
+          "effects": {
+            "$type": "System.Collections.Generic.List`1[[SpellCreator.Effect, Assembly-CSharp]], mscorlib",
+            "$values": [
+              {
+                "$type": "SpellCreator.Invocation, Assembly-CSharp",
+                "lifeLinkPercent": 0,
+                "effectZone": {
+                  "$type": "System.Collections.Generic.List`1[[UnityEngine.Vector2Int, UnityEngine.CoreModule]], mscorlib",
+                  "$values": [
+                  ]
+                },
+                "duration": 2,
+                "cellEffect": false,
+                "persistentCellEffect": false,
+                "characterDataPath": "Wonderful",
+                "conditionCode": null,
+                "procTime": 0
+              }
+            ]
+          },
+          "iconPath": "Ressources/Spell Icons/Cultist12.png",
+          "basicScope": true,
+          "scopeMin": 1,
+          "scopeMax": 3,
+          "scopeZone": {
+            "$type": "System.Collections.Generic.List`1[[UnityEngine.Vector2Int, UnityEngine.CoreModule]], mscorlib",
+            "$values": [
+            ]
+          },
+          "throughObstacles": false,
+          "targets": null,
+          "targetOccupation": null,
+          "costValue": 5,
+          "costStat": 0,
+          "cooldown": 3,
+          "launchPerTurn": 1
+        },
+        {
+          "$type": "SpellCreator.Spell, Assembly-CSharp",
+          "effects": {
+            "$type": "System.Collections.Generic.List`1[[SpellCreator.Effect, Assembly-CSharp]], mscorlib",
+            "$values": [
+            ]
+          },
+          "iconPath": null,
+          "basicScope": false,
+          "scopeMin": 0,
+          "scopeMax": 0,
+          "scopeZone": {
+            "$type": "System.Collections.Generic.List`1[[UnityEngine.Vector2Int, UnityEngine.CoreModule]], mscorlib",
+            "$values": [
+            ]
+          },
+          "throughObstacles": false,
+          "targets": null,
+          "targetOccupation": null,
+          "costValue": 0,
+          "costStat": 0,
+          "cooldown": 0,
+          "launchPerTurn": 0
+        },
+        {
+          "$type": "SpellCreator.Spell, Assembly-CSharp",
+          "effects": {
+            "$type": "System.Collections.Generic.List`1[[SpellCreator.Effect, Assembly-CSharp]], mscorlib",
+            "$values": [
+            ]
+          },
+          "iconPath": null,
+          "basicScope": false,
+          "scopeMin": 0,
+          "scopeMax": 0,
+          "scopeZone": {
+            "$type": "System.Collections.Generic.List`1[[UnityEngine.Vector2Int, UnityEngine.CoreModule]], mscorlib",
+            "$values": [
+            ]
+          },
+          "throughObstacles": false,
+          "targets": null,
+          "targetOccupation": null,
+          "costValue": 0,
+          "costStat": 0,
+          "cooldown": 0,
+          "launchPerTurn": 0
+        },
+        {
+          "$type": "SpellCreator.Spell, Assembly-CSharp",
+          "effects": {
+            "$type": "System.Collections.Generic.List`1[[SpellCreator.Effect, Assembly-CSharp]], mscorlib",
+            "$values": [
+            ]
+          },
+          "iconPath": null,
+          "basicScope": false,
+          "scopeMin": 0,
+          "scopeMax": 0,
+          "scopeZone": {
+            "$type": "System.Collections.Generic.List`1[[UnityEngine.Vector2Int, UnityEngine.CoreModule]], mscorlib",
+            "$values": [
+            ]
+          },
+          "throughObstacles": false,
+          "targets": null,
+          "targetOccupation": null,
+          "costValue": 0,
+          "costStat": 0,
+          "cooldown": 0,
+          "launchPerTurn": 0
+        },
+        {
+          "$type": "SpellCreator.Spell, Assembly-CSharp",
+          "effects": {
+            "$type": "System.Collections.Generic.List`1[[SpellCreator.Effect, Assembly-CSharp]], mscorlib",
+            "$values": [
+            ]
+          },
+          "iconPath": null,
+          "basicScope": false,
+          "scopeMin": 0,
+          "scopeMax": 0,
+          "scopeZone": {
+            "$type": "System.Collections.Generic.List`1[[UnityEngine.Vector2Int, UnityEngine.CoreModule]], mscorlib",
+            "$values": [
+            ]
+          },
+          "throughObstacles": false,
+          "targets": null,
+          "targetOccupation": null,
+          "costValue": 0,
+          "costStat": 0,
+          "cooldown": 0,
+          "launchPerTurn": 0
+        }
+      ]
+    }
+  }
+}
